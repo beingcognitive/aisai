@@ -1,6 +1,6 @@
 # AISAI: AI Self-Awareness Index
 
-**Measuring AI Self-Awareness Through Game Theory**
+## LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory
 
 [![ArXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg)](https://arxiv.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
