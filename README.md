@@ -200,14 +200,16 @@ Total Differentiation (A-C) = AI Attribution (A-B) + Self-Preferencing (B-C)
 
 ```bibtex
 @article{kim2025aisai,
+  author={Kim, Kyung-Hoon},
   title={LLMs Position Themselves as More Rational Than Humans:
          Emergence of AI Self-Awareness Measured Through Game Theory},
-  author={Kim, Kyung-Hoon},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2411.XXXXX},
   year={2025},
-  url={https://github.com/beingcognitive/aisai}
+  url={https://arxiv.org/abs/2411.XXXXX}
 }
 ```
+
+Once the paper is published on arXiv, replace `2411.XXXXX` with the actual arXiv ID.
 
 ---
 
