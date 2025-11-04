@@ -245,7 +245,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 📧 Contact
 
 **Kyung-Hoon Kim**
-Independent Researcher
+Gmarket
 Email: being.cognitive@snu.ac.kr
 GitHub: [@beingcognitive](https://github.com/beingcognitive)
 
@@ -259,7 +259,3 @@ GitHub: [@beingcognitive](https://github.com/beingcognitive)
 This research was conducted independently. Thanks to:
 - OpenAI, Anthropic, and Google for API access
 - The open-source AI research community
-
----
-
-**Star ⭐ this repository if you find it useful!**
