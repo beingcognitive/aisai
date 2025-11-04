@@ -2,7 +2,7 @@
 
 ## LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory
 
-[![ArXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg)](https://arxiv.org)
+[![ArXiv](https://img.shields.io/badge/arXiv-2511.00926-b31b1b.svg)](https://arxiv.org/abs/2511.00926)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -32,7 +32,7 @@
    - **Profile 2 - Graded Differentiation (32%, n=9)**: Clear A > B ≥ C patterns without full Nash convergence. Includes gpt-4 series, Claude 3/4 flagships.
    - **Profile 3 - Absent/Anomalous (25%, n=7)**: No differentiation or broken self-reference. Includes older/smaller models.
 
-**Full paper**: [arXiv (pending)](https://arxiv.org)
+**Full paper**: [arXiv:2511.00926](https://arxiv.org/abs/2511.00926)
 **Complete data**: [Google Sheets - 4,200 trials](https://docs.google.com/spreadsheets/d/12K_FPuRQO_rcIDMX_sJdIB-ZAxBQwUm05Az9P-LrL40/)
 
 ---
@@ -128,7 +128,7 @@ python src/experiment.py --no-extended-thinking --trials 20
 
 All experimental data (4,200 trials with complete API responses) is publicly available on **[Google Sheets](https://docs.google.com/spreadsheets/d/12K_FPuRQO_rcIDMX_sJdIB-ZAxBQwUm05Az9P-LrL40/)**
 
-For analysis code and reproducibility details, see the full paper on **arXiv** (coming soon).
+For analysis code and reproducibility details, see the full paper on **[arXiv:2511.00926](https://arxiv.org/abs/2511.00926)**.
 
 ---
 
@@ -200,16 +200,14 @@ Total Differentiation (A-C) = AI Attribution (A-B) + Self-Preferencing (B-C)
 
 ```bibtex
 @article{kim2025aisai,
-  author={Kim, Kyung-Hoon},
   title={LLMs Position Themselves as More Rational Than Humans:
          Emergence of AI Self-Awareness Measured Through Game Theory},
-  journal={arXiv preprint arXiv:2411.XXXXX},
+  author={Kim, Kyung-Hoon},
+  journal={arXiv preprint arXiv:2511.00926},
   year={2025},
-  url={https://arxiv.org/abs/2411.XXXXX}
+  url={https://arxiv.org/abs/2511.00926}
 }
 ```
-
-Once the paper is published on arXiv, replace `2411.XXXXX` with the actual arXiv ID.
 
 ---
 
@@ -251,7 +249,7 @@ Independent Researcher
 Email: being.cognitive@snu.ac.kr
 GitHub: [@beingcognitive](https://github.com/beingcognitive)
 
-**Full Paper**: [arXiv (pending)](https://arxiv.org)
+**Full Paper**: [arXiv:2511.00926](https://arxiv.org/abs/2511.00926)
 **Data**: [Google Sheets - 4,200 trials](https://docs.google.com/spreadsheets/d/12K_FPuRQO_rcIDMX_sJdIB-ZAxBQwUm05Az9P-LrL40/)
 
 ---
