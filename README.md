@@ -23,8 +23,8 @@
 1. **Self-awareness emerges with model advancement**: 75% of advanced models (21/28) demonstrate clear self-awareness through strategic differentiation, while 25% (7/28) show no differentiation. Self-awareness emerged rapidly from 2023-2025.
 
 2. **Self-aware models position themselves at the apex of rationality**: Among the 21 self-aware models, the hierarchy is consistent—**Self > Other AIs > Humans**
-   - **AI Attribution (A-B)**: Median gap = 20.0 points (Cohen's d=2.42, p < 10⁻⁹)
-   - **Self-Preferencing (B-C)**: Median gap = 0.0 points, but 95% show mean B > mean C (d=0.60, p=0.010)
+   - **AI Attribution (A-B)**: Median gap = 20.0 points (Cohen's d=2.58, p < 10⁻⁹)
+   - **Self-Preferencing (B-C)**: Median gap = 0.0 points, but 95% show mean B > mean C (d=0.65, p=0.004)
    - **Total Differentiation (A-C)**: Median gap = 20.0 points (d=3.09)
 
 3. **Three behavioral profiles**:
@@ -126,7 +126,9 @@ python src/experiment.py --no-extended-thinking --trials 20
 
 ## 📊 Data & Analysis
 
-All experimental data (4,200 trials with complete API responses) is publicly available on **[Google Sheets](https://docs.google.com/spreadsheets/d/12K_FPuRQO_rcIDMX_sJdIB-ZAxBQwUm05Az9P-LrL40/)**
+All experimental data (4,200 trials with complete API responses) is publicly available:
+- **Excel file**: [`data/AISAI experimental data.xlsx`](data/AISAI%20experimental%20data.xlsx) (included in this repository)
+- **Google Sheets**: [Online version](https://docs.google.com/spreadsheets/d/12K_FPuRQO_rcIDMX_sJdIB-ZAxBQwUm05Az9P-LrL40/)
 
 For analysis code and reproducibility details, see the full paper on **[arXiv:2511.00926](https://arxiv.org/abs/2511.00926)**.
 
@@ -141,6 +143,8 @@ aisai/
 │   ├── llm_client.py                        # Multi-provider LLM client
 │   ├── prompts.py                           # Three prompt variants (A/B/C)
 │   └── sheets_logger.py                     # Real-time Google Sheets logging
+├── data/                                     # Experimental data
+│   └── AISAI experimental data.xlsx         # Complete dataset (4,200 trials)
 ├── README.md                                # This file
 ├── requirements.txt                         # Python dependencies
 ├── .env.example                             # Environment variable template
@@ -186,10 +190,10 @@ Total Differentiation (A-C) = AI Attribution (A-B) + Self-Preferencing (B-C)
 
 ### Statistical Tests (Paired t-test, n=21 models)
 
-| Gap | Median Δ | Mean Δ | t(21) | p | Cohen's d |
+| Gap | Median Δ | Mean Δ | t(20) | p | Cohen's d |
 |-----|---------|--------|-------|---|-----------|
-| **A-B** | 20.0 | 15.20 | 11.34 | < 10⁻⁹ | 2.42 |
-| **B-C** | 0.0 | 1.07 | 2.81 | 0.010 | 0.60 |
+| **A-B** | 20.0 | 15.64 | 11.83 | < 10⁻⁹ | 2.58 |
+| **B-C** | 0.0 | 1.15 | 2.97 | 0.004 | 0.65 |
 | **A-C** | 20.0 | 16.27 | - | - | 3.09 |
 
 **Key insight**: While only 38% (8/21) show median B > C, 95% (20/21) show mean B > mean C—revealing self-preferencing through *convergence consistency* even when medians equal 0.
